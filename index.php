@@ -44,14 +44,6 @@
           </tr>
           <!-- end single room -->
 
-          <!-- single room -->
-          <tr>
-            <td>3</td>
-            <td>34</td>
-            <td>4</td>
-          </tr>
-          <!-- end single room -->
-
         </tbody>
         <!-- body table -->
 
