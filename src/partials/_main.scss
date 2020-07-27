@@ -1,0 +1,21 @@
+//_main
+main {
+  padding: 10px;
+}
+
+//table stanze
+table {
+    @include table_cell_spacing;
+}
+
+th{
+  background-color: yellow;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+td {
+  background-color: lightgrey;
+  border: 1px solid blue;
+  padding: 10px;
+}

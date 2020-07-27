@@ -16,9 +16,47 @@
       <h1>Boolean Hotel</h1>
     </header>
     <!-- end header -->
-    
+
     <!-- main -->
     <main>
+
+      <!-- table stanze -->
+      <table>
+
+        <!-- head table  -->
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Numero Stanza</th>
+            <th>Piano</th>
+          </tr>
+        </thead>
+        <!-- head table -->
+
+        <!-- body table -->
+        <tbody>
+
+          <!-- single room -->
+          <tr>
+            <td>1</td>
+            <td>105</td>
+            <td>3</td>
+          </tr>
+          <!-- end single room -->
+
+          <!-- single room -->
+          <tr>
+            <td>3</td>
+            <td>34</td>
+            <td>4</td>
+          </tr>
+          <!-- end single room -->
+
+        </tbody>
+        <!-- body table -->
+
+      </table>
+      <!-- table stanze -->
     </main>
     <!-- end main -->
 
