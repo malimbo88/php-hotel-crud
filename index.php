@@ -1,3 +1,5 @@
+<?php include __DIR__ . "/database.php" ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -36,13 +38,17 @@
         <!-- body table -->
         <tbody>
 
-          <!-- single room -->
-          <tr>
-            <td>1</td>
-            <td>105</td>
-            <td>3</td>
-          </tr>
-          <!-- end single room -->
+          <?php foreach ($array_rooms as $single_room) { ?>
+
+            <!-- single room -->
+            <tr>
+              <td><?php echo $single_room["id"]; ?></td>
+              <td><?php echo $single_room["room_number"]; ?></td>
+              <td><?php echo $single_room["floor"]; ?></td>
+            </tr>
+            <!-- end single room -->
+
+          <?php }; ?>
 
         </tbody>
         <!-- body table -->
