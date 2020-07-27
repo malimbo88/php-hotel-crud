@@ -1,10 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "boolean-hotel";
-$port = 8889;
-
+include __DIR__ . "/env.php";
 
 // Connect
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
