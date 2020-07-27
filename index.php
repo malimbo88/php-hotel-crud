@@ -1,23 +1,8 @@
 <?php include __DIR__ . "/database.php" ?>
+<?php include __DIR__ . "/partials_php/_head.php" ?>
+<?php include __DIR__ . "/partials_php/_header.php" ?>
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>php-hotel-crud</title>
 
-    <!-- Link Html -->
-    <link rel="stylesheet" href="dist/style.css">
-    <!-- Link Html -->
-
-  </head>
-  <body>
-
-    <!-- header -->
-    <header>
-      <h1>Boolean Hotel</h1>
-    </header>
-    <!-- end header -->
 
     <!-- main -->
     <main>
